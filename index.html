@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prime Food Delivery</title>
+</head>
+<body>
+    <!-- sidebar -->
+     <div class="sidebar">
+        <!-- logo -->
+        <h1 class="logo"></h1>Prime Food Delivery</h1>
+
+         <!-- list of menu -->
+         <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notifications</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+         </div>
+         <!-- logout -->
+         <div class="sidebar-logout">
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+         </div>
+    </div>
+
+    <!-- main -->
+     <div class="main">
+        <!-- main navbar -->
+        <div class="main-navbar">
+            <!-- menu when appear on mobile version -->
+             <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+             <!-- search bar -->
+                <div class="search">
+                    <input type="text" placeholder="What you want to eat?">
+                    <button class="search-btn">search</button>
+                </div>
+                <!--profile icon on left side of navbar-->
+                <div class="profile">
+                    <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                    <a class="user" href="#"><ion-icon name="person-outline"></ion-icon> </a>
+                </div>
+            </div>
+        <!--main highlight -->
+        <div class="main-highlight">
+                <!-- title section and arrow -->
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <!-- highlight menu -->
+             <div class="highlight-wrapper">
+                <div class="hightlight-card">
+                    <div class="bick">
+                    <img class="highlight-img" src="pizza.png " alt="pizza">
+                    <div class="highlight-desc">
+                        <h4>Fresh pizza</h4>
+                        <p>₹459</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hightlight-card">
+                    <div class="bick">
+                    <img class="highlight-img" src="burger.png" alt="burger">
+                    <div class="highlight-desc">
+                        <h4>burger</h4>
+                        <p>₹399</p>
+                        </div>
+                    </div>
+             </div>
+             <div class="hightlight-card">
+                <div class="bick">
+                <img class="highlight-img" src="sandwich.png" alt="sandwich">
+                <div class="highlight-desc">
+                    <h4>sandwich</h4>
+                    <p>₹359</p>
+                    </div>
+                </div>
+                </div>
+                <div class="hightlight-card">
+                    <div class="bick">
+                    <img class="highlight-img" src="fried-chicken.png" alt="fried-chicken">
+                    <div class="highlight-desc">
+                        <h4>fried-chicken</h4>
+                        <p>₹299</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <!--main menus / oredr-->
+            <div class="main=menus" style="display: flex; background-color: aliceblue; border-radius: 8px; padding: 1rem;padding-bottom: 25px;"> 
+                <!-- filter section -->
+                 <div class="main-filter">
+                    <div>
+                        <h2 class="main-title">Menu<br>Category</h2>
+                        <div class="main-arrow">
+                            <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                            <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper">
+                        <div class="filter-card">
+                            <div class="filter-icon">
+                                <ion-icon name="restaurant-outline"></ion-icon>
+                            </div>
+                            <p>All Menus</p>
+                        </div>
+                        <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="pizza-outline"></ion-icon>
+                        </div>
+                        <p>Pizza</p>
+                        </div>
+
+                        <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="ice-cream-outline"></ion-icon>
+                        </div>
+                        <p>ice-cream</p>
+                        </div>
+                        <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fast-food-outline"></ion-icon>
+                        </div>
+                        <p>Fast Food</p>
+                        </div>
+                        <div class="filter-card">
+                    <div class="filter-icon">
+                    <ion-icon name="cafe-outline"></ion-icon>
+                    </div>
+                    <p>Coffee</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="Beer-outline"></ion-icon>
+                        </div>
+                        <p>Beer</p>
+                        </div>
+                        <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="wine-outline"></ion-icon>
+                        </div>
+                        <p>wine</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr class="divider">
+                    <!-- list of food menus -->
+                     <br> <br>
+                     </div>
+                     <div class="main-detail">
+                        <h2 class="main-title">Choose Order</h2>
+                        <div class="detail-wrapper">
+                            <div class="detail-card">
+                                <img class="detail-img" src="spring-roll.png" alt="spring-roll">
+                                <div class="detail-desc">
+                                </div>
+                                   <div class="detail-name">
+                                        <h4>spring-roll</h4>
+                                        <p class="detail-sub">Crispy rolls stuffed with spicy veggie or chicken filling. Fried to golden brown and served with sweet chili sauce for extra taste.</p>
+                                        <p class="price">₹559</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            <div class="detail-card">
+                                <img class="detail-img" src="burger.png " alt="burger">
+                                <div class="detail-desc">
+                                </div>
+                                   <div class="detail-name">
+                                        <h4>burger</h4>
+                                        <p class="detail-sub">Soft buns filled with juicy patty, fresh veggies, and tasty sauces. A classic fast-food favorite that’s satisfying and delicious.</p>
+                                        <p class="price">₹399</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            <div class="detail-card">
+                                <img class="detail-img" src="pizza.png " alt="pizza">
+                                <div class="detail-desc">
+                                </div>
+                                   <div class="detail-name">
+                                        <h4>Pizza</h4>
+                                        <p class="detail-sub">Hot and cheesy pizza loaded with fresh toppings and rich tomato sauce. Baked with love for a perfect crispy crust and melting cheese experience.</p>
+                                        <p class="price">₹459</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            <div class="detail-card">
+                                <img class="detail-img" src="sandwich.png " width="50%"alt="sandwich">
+                                <div class="detail-desc">
+                                </div>
+                                   <div class="detail-name">
+                                        <h4>sandwich</h4>
+                                        <p class="detail-sub">Fresh bread stuffed with veggies, cheese, and flavorful fillings. Light, tasty, and perfect for a quick hunger fix anytime.</p>
+                                        <p class="price">₹359</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            <div class="detail-card">
+                                <img class="detail-img" src="lasagna.png " alt="lasagna">
+                                <div class="detail-desc">
+                                </div>
+                                   <div class="detail-name">
+                                        <h4>lasagna</h4>
+                                        <p class="detail-sub">Layers of pasta, rich meat/veg filling, and creamy cheese baked to perfection. A delicious Italian-style dish with a soft and cheesy taste in every spoon.</p>
+                                        <p class="price">₹599</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                            <div class="detail-card">
+                                <img class="detail-img" src="fried-chicken.png " alt="fried-chicken">
+                                <div class="detail-desc">
+                                </div>
+                                   <div class="detail-name">
+                                        <h4>fried-chicken</h4>
+                                        <p class="detail-sub">Crispy outside, juicy inside! Our fried chicken is marinated with special spices and deep-fried to golden perfection.</p>
+                                        <p class="price">₹299</p>
+                                </div>
+                                <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>            
+            </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- adding javascript -->
+ <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ <script src="app.js"></script>
+</html>
